@@ -1,0 +1,11 @@
+=> bookMarks - DevDeveloper
+
+indexV7b: #180226
+cp index, update book marks
+[Stable]
+
+indexV5c: #180222
+cp index, update book marks
+
+indexV6c: #180215
+cp index, add serch bar, add field
