@@ -143,11 +143,32 @@ a:active
     display: block;
 }
 
+
 .tooltip {
     position: relative;
+    z-index: unset;
     display: inline-block;
+    font-family: unset;
+    font-style: unset;
+    font-weight: unset;
+    line-height: unset;
+    line-break: unset;
+    text-align: unset;
+    text-align: unset;
+    text-decoration: unset;
+    text-shadow: unset;
+    text-transform: unset;
+    letter-spacing: unset;
+    word-break: unset;
+    word-spacing: unset;
+    word-wrap: unset;
+    white-space: unset;
+    font-size: unset;
+    filter: unset;
+    opacity: unset;
     border-bottom: 1px dotted black;
 }
+
 
 .tooltip .tooltiptext {
     font-size: 14px;
@@ -177,6 +198,13 @@ a:active
 .tooltip:hover .tooltiptext {
     visibility: visible;
 }
+
+
+.btn.focus, .btn:focus, .btn:hover {
+  color: white;
+  text-decoration: none;
+}
+
 
 @media only screen and (max-width: 600px) {
 

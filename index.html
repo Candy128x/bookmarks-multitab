@@ -42,6 +42,7 @@
     <li><a href="#menu4" class="tab1">Code</a></li>
     <li><a href="#menu5" class="tab1">DevTools</a></li>
     <li><a href="#menu6" class="tab1">Appn</a></li>
+    <li><a href="#menu7" class="tab1">Personal</a></li>
   </ul>
   <hr>
 
@@ -57,12 +58,14 @@
 <button class="btn">@gmail</button></a>
 
 <a href="https://drive.google.com" title="Google">
-<button class="btn">drive</button></a>
+<button class="btn"  data-toggle="tooltip" data-placement="left" title="Hooray!">drive</button></a>
 
 <a href="https://github.com/Candy128x?direction=desc&sort=updated&tab=stars">
 <button class="btn">Candy128x</button></a>
 
-<a href="https://trello.com/">
+
+<a href="https://trello.com/" class="tooltip">
+  <span class="tooltiptext">tooltipText</span>
 <button class="btn">trello</button></a>
 
 <a href="https://evernote.com/" title="online NotePad">
@@ -193,6 +196,8 @@
 
 <a href="http://dev01.co.nf/proj/indb/ea/">
 <button class="btn"> [Project's] </button></a>
+
+<!-- <li><a href="#" data-toggle="tooltip" data-placement="left" title="Hooray!">Left</a></li> -->
 
 <div class="dropdown">
   <button class="btn">SoftWare..</button>
@@ -376,9 +381,12 @@
 
 <script>
 $(document).ready(function(){
+
   $(".nav-pills a").click(function(){
     $(this).tab('show');
   });
+
+   $('[data-toggle="tooltip"]').tooltip();   
 });
 </script>
 
