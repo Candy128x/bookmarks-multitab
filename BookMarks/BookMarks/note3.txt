@@ -1,7 +1,0 @@
-proj: BookMarks
-#180815
-
-GitHub:
-brnboomar
-brnboomaro
-remtboomar: https://github.com/Candy128x/BookMarks.git
