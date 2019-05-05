@@ -206,6 +206,11 @@ a:active
 }
 
 
+.nav-custm {
+  margin: auto; 
+  width: 750px;
+}
+
 @media only screen and (max-width: 600px) {
 
 .btn {
@@ -228,6 +233,11 @@ color: #ffffff;
   overflow: hidden;
   text-overflow: ellipsis;
   font-weight: 300;
+}
+
+.nav-custm {
+  margin: auto; 
+  width: 90%;
 }
 
 }
