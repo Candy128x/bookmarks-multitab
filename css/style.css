@@ -240,5 +240,14 @@ color: #ffffff;
   margin: auto; 
   width: 90%;
 }
+	
+.font1{
+font-family: 'Ropa Sans', sans-serif;
+font-size:22px;
+color: white;
+letter-spacing: 3px;
+text-shadow: 3px 2px 2px black;
+line-height: 1.1;
+}
 
 }
